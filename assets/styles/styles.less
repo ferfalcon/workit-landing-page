@@ -1,12 +1,26 @@
 :root {
+	// Colours
 	--dark-purple-color: #24053E;
 	--davys-grey-color: #584D62;
 	--eucaplyptus-color: #44FFA1;
 	--gost-white-color: #FCF8FF;
 	--white-color: #FFF;
 
-	--heading-large-font: 700 5rem/5rem 'Fraunces144pt', serif;
-	--heading-medium-font: 700 3.5rem/4rem 'Fraunces144pt', serif;
-	--heading-small-font: 700 2rem/2.5rem 'Fraunces144pt', serif;
-	--body-font: 400 1.125rem/2rem 'Manrope', sans-serif;
+	//Typography
+	--heading-large-font: 700 3.125rem/3.125rem 'Fraunces144pt', serif;
+	--heading-medium-font: 700 2rem/3rem 'Fraunces144pt', serif;
+	--heading-small-font: 700 1.75rem/2.25rem 'Fraunces144pt', serif;
+	--body-font: 400 1rem/1.75rem 'Manrope', sans-serif;
+
+	@media (min-width:48rem) {
+		--heading-large-font: 700 3.75rem/3.75rem 'Fraunces144pt', serif;
+		--heading-medium-font: 700 3rem/3.5rem 'Fraunces144pt', serif; 
+	}
+
+	@media (min-width:60rem) {
+		--heading-large-font: 700 5rem/5rem 'Fraunces144pt', serif;
+		--heading-medium-font: 700 3.5rem/4rem 'Fraunces144pt', serif;
+		--heading-small-font: 700 2rem/2.5rem 'Fraunces144pt', serif;
+		--body-font: 400 1.125rem/2rem 'Manrope', sans-serif;
+	}
 }
